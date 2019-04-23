@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Image_location</string>
+
+    <array name="country">
+        <item>Nepal</item>
+        <item>Japan</item>
+        <item>Korea</item>
+        <item>USA</item>
+    </array>
+
+    //frequently used items are here and called in the main Xml file.
+</resources>

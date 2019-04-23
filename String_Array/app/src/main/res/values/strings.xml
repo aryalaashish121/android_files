@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">String_Array</string>
+
+    <string name="mystring">
+        Softwarica College of IT and E-commerce
+    </string>
+    <array name="country">
+        <item>Nepal</item>
+        <item>India</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>Korea</item>
+        <item>USA</item>
+    </array>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/taxImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tax_calculator"/>
+
+    <TextView
+        android:id="@+id/textAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your monthly salary: "
+        android:layout_below="@+id/taxImage"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/inputSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Monthly salary Here"
+        android:inputType="number"
+        android:layout_below="@id/textAmount"
+        android:textColorHint="#6200EA"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/calculateTax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate TAX"
+        android:layout_below="@id/inputSalary"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/displayTax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_below="@+id/calculateTax"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
