@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Countries"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#4CAF50"
+        android:layout_marginTop="20dp"
+        android:id="@+id/countryRecyclerView">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/addCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Country"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/updateCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update / delete country"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
